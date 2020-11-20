@@ -9,7 +9,7 @@
     <body>
 
         <div id="root">
-            <div v-if="numero !== false">
+            <div v-if="mailArray.length == mailNeeded">
                 <h1 v-for="email in mailArray">
                     {{email}}
                 </h1>

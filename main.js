@@ -1,7 +1,7 @@
 var app = new Vue({
     el : '#root',
     data: {
-        mail: false,
+        mail: '',
         mailNeeded: 10,
         mailArray: []
     },
